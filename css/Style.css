@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+body{
+  background-color: #aee2db;
+  font-family: "Boldonse", system-ui;
+}
+.card{
+  display: grid;
+  width: 400px;
+  height: 300px;
+  background-color: #4f4f4c;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  color: #ffffff;
+  font-size: 30px;
+  overflow: auto;
+}
+
+.card img{
+  width: 400px;
+  height: 170px;
+  border-radius: 5%;
+}
+
+.card p{
+  margin-left: 30px;
+  font-size: 15px;
+}
+.card-container{
+display: flex;
+justify-content: space-between;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+nav a{
+  text-decoration: none;
+  margin-left: 100px;
+  justify-content: center;text-overflow: 20px;
+  color: #ffffff;
+}
+nav img{
+  width: 150px;;
+  margin-right: 70px;
+}
+nav{
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: rgb(73, 123, 136);
+}
+h1{
+  color: rgb(17, 6, 179);
+  border-color: black;
+  justify-content: center;
+}
