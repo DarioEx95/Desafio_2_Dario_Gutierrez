@@ -2,6 +2,7 @@
 body{
   background-color: #aee2db;
   font-family: "Boldonse", system-ui;
+  margin: 0;
 }
 .card{
   display: grid;
@@ -32,9 +33,7 @@ justify-content: space-between;
 gap: 20px;
 padding: 20px;
 flex-wrap: wrap;
-}
-.card:hover {
-  transform: scale(1.01);
+transform: scale(1.01);
 }
 nav a{
   text-decoration: none;
@@ -42,9 +41,15 @@ nav a{
   justify-content: center;text-overflow: 20px;
   color: #ffffff;
 }
+.card:hover{
+  transform: scale(1.01);
+}
 nav img{
   width: 150px;;
   margin-right: 70px;
+}
+.card2:hover{
+  transform: scale(1.01);
 }
 nav{
   align-items: flex-start;
@@ -59,4 +64,64 @@ h1{
   color: rgb(17, 6, 179);
   border-color: black;
   justify-content: center;
+  text-align: center;
 }
+.card2{
+  display: grid;
+  width: 400px;
+  height: 350px;
+  background-color: #4f4f4c;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  color: #ffffff;
+  font-size: 15px;
+  overflow: auto;
+  margin-left: 725px;
+}
+.card2 img{
+  width: 400px;
+  height: 170px;
+  border-radius: 5%;
+}
+.card2 p{
+  display: flex;
+  font-size: 15px;
+  justify-content:center ;
+}
+.precio{
+  color: rgb(47, 170, 119);
+}
+button{
+  background-color:#64b3a8 ;
+  color: #ffffff;
+  border-radius: 10px;
+  border:#64b3a8 ;
+}
+footer {
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+.card3{
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 1000px;
+  background-color: #4f4f4c;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  color: #ffffff;
+  font-size: 15px;
+  overflow: auto;
+}
+.card-container2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  transform: scale(1.01);
+  
+  }
